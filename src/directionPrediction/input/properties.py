@@ -1,0 +1,9 @@
+target_index='NSE/NIFTY_50'
+count_dependency=2
+dependency=['EOD/HD']#['BCB/7809','NASDAQOMX/XQC']
+delta=10
+authtoken="tu-EJsz91zSwSCnzA9ET"
+start_date='2014-10-10'
+end_date='2018-10-20'
+column='Close'
+train_ratio=0.9
