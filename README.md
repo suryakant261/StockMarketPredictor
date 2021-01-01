@@ -15,14 +15,14 @@ Low level details :
 1. Data Fetcher
 Support fetch data from API and write to a systematic folder structure ( at path  stock_market/stock_name/daterange_currentdate , data should be in tabular format CSV)
 Download data from internet sources and store at correct location
-     2. Data Transformer/ Featurizer
+2. Data Transformer/ Featurizer
 Read multiple data, stock data and other indexes data
 Join multiple data on date column
 Fill in the missing values
 Calculate derived features
 Select only required columns
 Split the data into train and test
-    3. ML model
+3. ML model
 Read the training and test files
 EDA of features, feature importance , feature correlation
 Calculate precision /accuracy on test data
